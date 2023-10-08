@@ -1,0 +1,69 @@
+github.com
+Sign up para crear una cuenta
+Un correo
+Usuario: 
+Contraseña:
+
+Crear una carpeta en el escritorio:
+missi -> Es una carpeta ordinaria de Windows
+Click derecho en Open Git Bash Here
+Configurar nombre y correo en GIT
+git config --global user.name "Danilo Noguera"
+git config --global user.email "danilo.noguera@gmail.com"
+
+git init -> Convertir a esta carpeta en repositorio de GIT
+git status -> Muestra si hay algo pendiente
+git add [nombre del archivo] -> Le dice a GIT que inicie a rastrear los cambios de ese archivo
+git add . -> Le dice a GIT que rastree todo el contenido de la carpeta
+	(El . significa que apunta a la carpeta actual)
+	(El .. significa que apunta a la carpeta padre)
+git commit -am "Se agrego el archivo App.java.txt"
+-> Le pone una descripción al estado o al cambio actual
+git log -> Muestra el historial de cambios
+
+Ir a Github
+Crear un repositorio (en la nube)
+	Ponerle un nombre (sin espacios)
+Ir de nuevo al repositorio local
+git remote add origin [URL de github]
+-> Asocia mi repositorio local con mi repositorio en la nube
+
+git remote -v -> Muestra la URL del repositorio en la nube
+
+git push -u origin master
+:::::::::::::::::::::::::::::::::::
+De github a nuestro repositorio local
+Crear carpeta nueva
+git init -> Inicializar repositorio local de git
+git remote add origin [URL de github]
+git pull origin master
+
+1)Crear una carpeta local llamada PrimerProyecto
+Hacerla repositorio local de Git
+Agregar un archivo llamado App.js
+Agregar al archivo la línea console.log("Hola mundo.");
+Rastrear el cambio
+Guardar el cambio
+
+2)Crear un repositorio en Github llamado PrimerProyecto
+Asociar el repositorio local con el repositorio github
+Subir el contenido del repositorio local al repositorio github
+
+3)Crear otra carpeta fuera de la carpeta del repositorio anterior
+llamada SegundoProyecto
+Inicializar el repositorio local de Git
+Asociar el repositorio local con el repositorio github anterior
+Descargar el contenido del repositorio github al repositorio local
+
+
+
+
+
+
+
+
+Wifi:
+FCyS1_5_0Ghz
+FCyS2_5_0Ghz
+Contraseña: CULMINACION345.
+
