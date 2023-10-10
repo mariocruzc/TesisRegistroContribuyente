@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
+<rem:requirementsProject
+xmlns:rem="http://rem.lsi.us.es">
+<rem:name>Requerimientos del Sistema de Registro Contribuyente Jinotega</rem:name>
+<rem:c_requirementsSpecification oid = "CRS-0001">
+<rem:name>Documento de Requisitos del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+<rem:organization
+ oid = "ORG-0001">
+<rem:name>
+Alcaldia de Jinotega</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>Costado sur parque central Jinotega</rem:address>
+<rem:telephone><rem:tbd/></rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
+<rem:actor
+ oid = "ACT-0004">
+<rem:name>
+Contribuyente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Los Contribuyentes son una parte integral de los procesos municipales y mantienen relaciones con varias áreas, como Cementerio, Fiscalización, Registro del Contribuyente, Catastro, entre otras.</rem:comments>
+<rem:actorRole>El Contribuyente es cualquier persona o entidad que, además de cumplir con sus obligaciones tributarias, realiza diversos trámites y acciones dentro de la municipalidad, como la solicitud de lotes de cementerio, la inscripción de propiedades, el pago de tributos, y la realización de trámites relacionados con negocios. Los Contribuyentes interactúan constantemente con diversas áreas de la municipalidad.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+Responsable de la Oficina de Cementerio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este actor desempeña un papel esencial en el proceso de asignación de lotes de cementerio y la generación de información inicial que luego será registrada en el sistema. Su interacción con el sistema se relaciona con la entrada de datos clave para el seguimiento y control de los pagos de cementerio.</rem:comments>
+<rem:actorRole>Es el encargado de otorgar lotes de cementerio a las personas que lo solicitan. Su función principal es recopilar los datos del solicitante y del fallecido, completar un formulario manual con la información del lote y los detalles del solicitante y fallecido, emitir una orden de pago por el valor del lote y registrar esta información para su posterior seguimiento en el sistema.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0002">
+<rem:name>
+ Fiscal Tributario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+El Fiscal Tributario juega un papel fundamental en la fiscalización de negocios y tributos en la municipalidad.</rem:comments>
+<rem:actorRole>El Fiscal Tributario es el encargado de revisar y procesar las solicitudes de apertura, cierre o modificación de negocios. Verifica el estado de solvencia de los contribuyentes y elabora actas relacionadas con estos procesos.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+Director Tributario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+El Director Tributario desempeña un rol de supervisión y validación en el área de fiscalización.</rem:comments>
+<rem:actorRole>El Director Tributario es responsable de aprobar y firmar las actas elaboradas por el Fiscal Tributario. Su autorización es necesaria para formalizar los procesos relacionados con los negocios y tributos municipales.</rem:actorRole>
+</rem:actor>
+<rem:functionalRequirement
+ oid = "FRQ-0001">
+<rem:name>
+Registro de Asignación de Lotes de Cementerio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento es esencial para automatizar el proceso de asignación de lotes de cementerio y garantizar la correcta generación de información que luego será registrada en el sistema.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido, generar un formulario con estos datos y emitir una orden de pago por el valor del lote.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0002">
+<rem:name>
+Registro de Pagos de Lotes de Cementerio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+ Este requerimiento es fundamental para llevar un seguimiento preciso de los pagos de los lotes de cementerio y mantener actualizado el estado de cuenta de los contribuyentes.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe permitir al Responsable de la Oficina de Cementerio registrar los pagos realizados por los solicitantes de lotes de cementerio. Debe incluir la información de los pagos, como el monto, la fecha y el número de recibo.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0003">
+<rem:name>
+Registro de Información del Lote de Cementerio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento es relevante para mantener un registro detallado de cada lote de cementerio y garantizar su correcta asignación y seguimiento.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe permitir al Responsable de la Oficina de Cementerio ingresar y actualizar la información específica de cada lote de cementerio, incluyendo sus dimensiones, ubicación, zona, linderos y código.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0004">
+<rem:name>
+Consulta de Estado de Cuenta de Tasa de Mantenimiento del Cementerio.</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento es fundamental para que el Responsable de Cementerio pueda llevar un seguimiento preciso de los pagos de la tasa de mantenimiento del cementerio sin la necesidad de ingresar datos directamente. Además, ayudará a garantizar la integridad de los datos y proporcionará una visión clara de la situación financiera de los contribuyentes con respecto a este tributo.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema deberá proporcionar una interfaz que permita al Responsable de Cementerio consultar el estado de cuenta de los contribuyentes con respecto a la tasa de mantenimiento del cementerio. Esta interfaz deberá mostrar los detalles de los pagos, las fechas de vencimiento, los montos pagados y cualquier información relevante relacionada con la tasa de mantenimiento. </rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0005">
+<rem:name>
+Registro de Solicitudes de Negocios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+ Este requerimiento es esencial para automatizar el proceso de registro de negocios y garantizar la consistencia de los datos.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema permitirá a los fiscales tributarios registrar solicitudes de negocios, incluyendo aperturas, modificaciones y cierres. Esto implicará la captura de datos personales del solicitante, detalles del negocio, elección del tipo de acta (apertura, modificación o cierre), determinación de tributos a pagar y cualquier observación.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0006">
+<rem:name>
+Generación de Actas de Negocios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+ Este requerimiento simplificará y agilizará la generación de actas de negocios, mejorando la eficiencia del proceso.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema generará automáticamente actas de negocios en formato impreso. Las actas incluirán toda la información ingresada por los fiscales tributarios y permitirán la firma y aprobación por parte del director tributario, fiscal tributario y contribuyente. Esto incluye actas de apertura, modificación y cierre de negocios.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0007">
+<rem:name>
+Gestión de Cambios de Tributos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento brindará flexibilidad para ajustar los tributos de los negocios registrados según sea necesario.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema permitirá a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0008">
+<rem:name>
+Generación de Informes de Negocios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento mejorará la capacidad de toma de decisiones del director tributario al proporcionar información clave sobre la actividad económica en la municipalidad.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema permitirá al director tributario generar informes detallados sobre los negocios registrados en base a diversos criterios, incluyendo totales de apertura, cierres de negocios, clasificación por zonas o barrios, actividades económicas y género de los propietarios. Estos informes estarán disponibles para su visualización y exportación en formatos adecuados.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0009">
+<rem:name>
+Registro de Mora en Pagos de Negocios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento ayudará a garantizar la recaudación oportuna y a identificar los negocios que requieren atención especial.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema permitirá al personal registrar y hacer seguimiento de los negocios que se encuentran en mora con los pagos de sus tributos. Se generará un registro de negocios morosos, incluyendo detalles de los tributos impagos y la duración de la mora.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0010">
+<rem:name>
+Seguimiento de Pagos de Tributos de Negocios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento asegurará un seguimiento preciso de los pagos de tributos de negocios y garantizará la actualización de los estados de cuenta de los contribuyentes en relación con sus obligaciones tributarias.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema permitirá a los auxiliares de registro ingresar información detallada sobre los pagos de tributos de negocios, incluyendo matrícula, IMI, tren de aseo de negocio, rotulo, aparcamiento, placa, retenciones y cualquier otro tributo asociado. Esta información se utilizará para llevar un registro actualizado de los estados de cuenta de los contribuyentes en relación con los tributos de sus negocios. La entrada de datos será realizada por personal autorizado en el registro del contribuyente y se basará en la información proporcionada en las boletas de cobro elaboradas por colectores y cajeros.</rem:description>
+</rem:functionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0001">
+<rem:name>
+Interfaz de Usuario Intuitiva</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe contar con una interfaz de usuario intuitiva y fácil de usar, con una navegación clara y una presentación de información que permita a los usuarios interactuar de manera eficiente con la aplicación.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0002">
+<rem:name>
+Cumplimiento Normativo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+El cumplimiento normativo es esencial para evitar problemas legales y sanciones.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe cumplir con las regulaciones y normativas locales y nacionales relacionadas con la gestión tributaria y la privacidad de datos, garantizando que todas las operaciones sean conformes a la ley.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0003">
+<rem:name>
+Escalabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe poder crecer para acomodar un aumento en el número de contribuyentes, empleados y transacciones sin disminución significativa del rendimiento.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0004">
+<rem:name>
+Seguridad de Datos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe garantizar la seguridad de los datos almacenados y transmitidos, utilizando medidas de cifrado y autenticación robustas para proteger la información confidencial de los contribuyentes y empleados.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0005">
+<rem:name>
+Disponibilidad y Continuidad del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El sistema debe garantizar una disponibilidad 24/7 y continuidad del servicio, minimizando las interrupciones planificadas y no planificadas mediante la implementación de planes de recuperación de desastres.</rem:description>
+</rem:nonFunctionalRequirement>
+</rem:c_requirementsSpecification>
+<rem:d_requirementsSpecification oid = "DRS-0002">
+<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:d_requirementsSpecification>
+<rem:defectsSpecification oid = "DFS-0003">
+<rem:name>Registro de Conflictos y Defectos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:defectsSpecification>
+<rem:changeRequestsSpecification oid = "CHS-0004">
+<rem:name>Registro de Peticiones de Cambio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:changeRequestsSpecification>
+<rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+</rem:predefinedValueTypes>
+<rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+</rem:predefinedValues>
+</rem:requirementsProject>
