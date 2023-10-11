@@ -114,7 +114,7 @@ Contribuyente</th>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
     Este actor representa
-<em>El Contribuyente es cualquier persona o entidad que, además de cumplir con sus obligaciones tributarias, realiza diversos trámites y acciones dentro de la municipalidad, como la solicitud de lotes de cementerio, la inscripción de propiedades, el pago de tributos, y la realización de trámites relacionados con negocios. Los Contribuyentes interactúan constantemente con diversas áreas de la municipalidad.</em>
+<em>a cualquier persona o entidad que, además de cumplir con sus obligaciones tributarias, realiza diversos trámites y acciones dentro de la municipalidad, como la solicitud de lotes de cementerio, la inscripción de propiedades, el pago de tributos, y la realización de trámites relacionados con negocios. Los Contribuyentes interactúan constantemente con diversas áreas de la municipalidad.</em>
 </td>
 </tr>
 <tr>
@@ -153,7 +153,7 @@ Responsable de la Oficina de Cementerio</th>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
     Este actor representa
-<em>Es el encargado de otorgar lotes de cementerio a las personas que lo solicitan. Su función principal es recopilar los datos del solicitante y del fallecido, completar un formulario manual con la información del lote y los detalles del solicitante y fallecido, emitir una orden de pago por el valor del lote y registrar esta información para su posterior seguimiento en el sistema.</em>
+<em>al encargado de otorgar lotes de cementerio a las personas que lo solicitan. Su función principal es recopilar los datos del solicitante y del fallecido, completar un formulario manual con la información del lote y los detalles del solicitante y fallecido, emitir una orden de pago por el valor del lote y registrar esta información para su posterior seguimiento en el sistema.</em>
 </td>
 </tr>
 <tr>
@@ -168,7 +168,7 @@ Este actor desempeña un papel esencial en el proceso de asignación de lotes de c
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">ACT-0002</th>
 <th align="left" valign="top" width="100%">
- Fiscal Tributario</th>
+Fiscal Tributario</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -192,7 +192,7 @@ Este actor desempeña un papel esencial en el proceso de asignación de lotes de c
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
     Este actor representa
-<em>El Fiscal Tributario es el encargado de revisar y procesar las solicitudes de apertura, cierre o modificación de negocios. Verifica el estado de solvencia de los contribuyentes y elabora actas relacionadas con estos procesos.</em>
+<em>al encargado de revisar y procesar las solicitudes de apertura, cierre o modificación de negocios. Verifica el estado de solvencia de los contribuyentes y elabora actas relacionadas con estos procesos. Tambien da seguimiento a los negocios que se encuentran en mora con los pagos de sus tributos.</em>
 </td>
 </tr>
 <tr>
@@ -231,7 +231,7 @@ Director Tributario</th>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
     Este actor representa
-<em>El Director Tributario es responsable de aprobar y firmar las actas elaboradas por el Fiscal Tributario. Su autorización es necesaria para formalizar los procesos relacionados con los negocios y tributos municipales.</em>
+<em>al responsable de tomar decisiones para el mejoramiento de la recaudación tributaria del municipio. Tambien responsable de aprobar y firmar las actas elaboradas por el Fiscal Tributario. Su autorización es necesaria para formalizar los procesos relacionados con los negocios y tributos municipales.</em>
 </td>
 </tr>
 <tr>
@@ -241,17 +241,17 @@ El Director Tributario desempeña un rol de supervisión y validación en el área d
 </tr>
 </table>
 <p />
-<a name="FRQ-0001" />
+<a name="ACT-0005" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">FRQ-0001</th>
+<th align="left" valign="top">ACT-0005</th>
 <th align="left" valign="top" width="100%">
-Registro de Asignación de Lotes de Cementerio</th>
+Auxiliar de Catastro</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
-			( 07/10/2023 )
+			( 10/10/2023 )
         </td>
 </tr>
 <tr>
@@ -267,97 +267,16 @@ Registro de Asignación de Lotes de Cementerio</th>
 </td>
 </tr>
 <tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
-</tr>
-<tr>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
-    El sistema deberá 
-<em>
-El sistema debe permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido, generar un formulario con estos datos y emitir una orden de pago por el valor del lote.</em>
+    Este actor representa
+<em>al encargado de registrar y mantener actualizada la información sobre propiedades inmuebles en el sistema SISCAT. Además, proporciona asesoramiento y documentación relacionada con las propiedades a los contribuyentes.</em>
 </td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">vital</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">inmediatamente</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">en construcción</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">alta</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="1">
-Este requerimiento es esencial para automatizar el proceso de asignación de lotes de cementerio y garantizar la correcta generación de información que luego será registrada en el sistema.</td>
-</tr>
-</table>
-<p />
-<a name="FRQ-0002" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">FRQ-0002</th>
-<th align="left" valign="top" width="100%">
-Registro de Pagos de Lotes de Cementerio</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top">1.0 
-			( 07/10/2023 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td align="left" valign="top">
-    El sistema deberá 
-<em>
-El sistema debe permitir al Responsable de la Oficina de Cementerio registrar los pagos realizados por los solicitantes de lotes de cementerio. Debe incluir la información de los pagos, como el monto, la fecha y el número de recibo.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">vital</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">inmediatamente</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">en construcción</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="1">
- Este requerimiento es fundamental para llevar un seguimiento preciso de los pagos de los lotes de cementerio y mantener actualizado el estado de cuenta de los contribuyentes.</td>
+Este actor interactúa con el sistema SISCAT y proporciona información relevante para la gestión del tributo IBI en el registro del contribuyente.</td>
 </tr>
 </table>
 <p />
@@ -395,7 +314,7 @@ Registro de Información del Lote de Cementerio</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema debe permitir al Responsable de la Oficina de Cementerio ingresar y actualizar la información específica de cada lote de cementerio, incluyendo sus dimensiones, ubicación, zona, linderos y código.</em>
+Permitir al Responsable de la Oficina de Cementerio ingresar y actualizar la información específica de cada lote de cementerio, incluyendo sus dimensiones, ubicación, zona, linderos y código.</em>
 </td>
 </tr>
 <tr>
@@ -418,6 +337,246 @@ El sistema debe permitir al Responsable de la Oficina de Cementerio ingresar y a
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="1">
 Este requerimiento es relevante para mantener un registro detallado de cada lote de cementerio y garantizar su correcta asignación y seguimiento.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0001</th>
+<th align="left" valign="top" width="100%">
+Registro de Asignación de Lotes de Cementerio</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 07/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento se enfoca en el proceso de registro y recopilación de datos.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0018" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0018</th>
+<th align="left" valign="top" width="100%">
+Generación de Formulario de Especificaciones del Lote de Cementerio</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+generar un formulario impreso con las especificaciones del lote de cementerio asignado. Este formulario se creará con los datos recopilados en el proceso de registro y estará listo para ser archivado en el registro del contribuyente en su respectivo expediente.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento se centra en la generación del formulario que contendrá las especificaciones del lote de cementerio.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0019" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0019</th>
+<th align="left" valign="top" width="100%">
+Generación de Orden de Pago para Lotes de Cementerio</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+generar una orden de pago por el valor del lote de cementerio asignado. Esta orden de pago contendrá los detalles de la transacción y estará lista para ser entregada al solicitante.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento se centra en la generación de la orden de pago, que es una parte crítica del proceso.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0002</th>
+<th align="left" valign="top" width="100%">
+Registro de Pagos de Lotes de Cementerio</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 07/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+Permitir al Responsable de la Oficina de Cementerio registrar los pagos realizados por los solicitantes de lotes de cementerio. Debe incluir la información de los pagos, como el monto, la fecha y el número de recibo.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+ Este requerimiento es fundamental para llevar un seguimiento preciso de los pagos de los lotes de cementerio y mantener actualizado el estado de cuenta de los contribuyentes.</td>
 </tr>
 </table>
 <p />
@@ -455,7 +614,7 @@ Consulta de Estado de Cuenta de Tasa de Mantenimiento del Cementerio.</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema deberá proporcionar una interfaz que permita al Responsable de Cementerio consultar el estado de cuenta de los contribuyentes con respecto a la tasa de mantenimiento del cementerio. Esta interfaz deberá mostrar los detalles de los pagos, las fechas de vencimiento, los montos pagados y cualquier información relevante relacionada con la tasa de mantenimiento. </em>
+Proporcionar una interfaz que permita al Responsable de Cementerio consultar el estado de cuenta de los contribuyentes con respecto a la tasa de mantenimiento del cementerio. Esta interfaz deberá mostrar los detalles de los pagos, las fechas de vencimiento, los montos pagados y cualquier información relevante relacionada con la tasa de mantenimiento. </em>
 </td>
 </tr>
 <tr>
@@ -515,7 +674,7 @@ Registro de Solicitudes de Negocios</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema permitirá a los fiscales tributarios registrar solicitudes de negocios, incluyendo aperturas, modificaciones y cierres. Esto implicará la captura de datos personales del solicitante, detalles del negocio, elección del tipo de acta (apertura, modificación o cierre), determinación de tributos a pagar y cualquier observación.</em>
+Permitir a los fiscales tributarios registrar solicitudes de negocios, incluyendo aperturas, modificaciones y cierres. Esto implicará la captura de datos personales del solicitante, detalles del negocio, elección del tipo de acta (apertura, modificación o cierre), determinación de tributos a pagar y cualquier observación.</em>
 </td>
 </tr>
 <tr>
@@ -575,7 +734,7 @@ Generación de Actas de Negocios</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema generará automáticamente actas de negocios en formato impreso. Las actas incluirán toda la información ingresada por los fiscales tributarios y permitirán la firma y aprobación por parte del director tributario, fiscal tributario y contribuyente. Esto incluye actas de apertura, modificación y cierre de negocios.</em>
+Generar automáticamente actas de negocios en formato impreso. Las actas incluirán toda la información ingresada por los fiscales tributarios y permitirán la firma y aprobación por parte del director tributario, fiscal tributario y contribuyente. Esto incluye actas de apertura, modificación y cierre de negocios.</em>
 </td>
 </tr>
 <tr>
@@ -635,7 +794,7 @@ Gestión de Cambios de Tributos</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema permitirá a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.</em>
+Permitir a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.</em>
 </td>
 </tr>
 <tr>
@@ -695,7 +854,7 @@ Generación de Informes de Negocios</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema permitirá al director tributario generar informes detallados sobre los negocios registrados en base a diversos criterios, incluyendo totales de apertura, cierres de negocios, clasificación por zonas o barrios, actividades económicas y género de los propietarios. Estos informes estarán disponibles para su visualización y exportación en formatos adecuados.</em>
+Permitir al director tributario generar informes detallados sobre los negocios registrados en base a diversos criterios, incluyendo totales de apertura, cierres de negocios, clasificación por zonas o barrios, actividades económicas y género de los propietarios. Estos informes estarán disponibles para su visualización y exportación en formatos adecuados.</em>
 </td>
 </tr>
 <tr>
@@ -721,12 +880,72 @@ Este requerimiento mejorará la capacidad de toma de decisiones del director trib
 </tr>
 </table>
 <p />
+<a name="FRQ-0016" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0016</th>
+<th align="left" valign="top" width="100%">
+Consulta de Estado de Cuenta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir a los fiscales tributarios y colectores consultar el estado de cuenta del contribuyente antes de realizar acciones relacionadas con la fiscalización y cobranza de tributos. La consulta se debe realizar de manera eficiente.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento es crucial para evitar errores en la fiscalización y cobranza de tributos.</td>
+</tr>
+</table>
+<p />
 <a name="FRQ-0009" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">FRQ-0009</th>
 <th align="left" valign="top" width="100%">
-Registro de Mora en Pagos de Negocios</th>
+Seguimiento de Mora en Pagos de Negocios</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -755,7 +974,7 @@ Registro de Mora en Pagos de Negocios</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema permitirá al personal registrar y hacer seguimiento de los negocios que se encuentran en mora con los pagos de sus tributos. Se generará un registro de negocios morosos, incluyendo detalles de los tributos impagos y la duración de la mora.</em>
+Permitir al fiscal tributario hacer seguimiento de los negocios que se encuentran en mora con los pagos de sus tributos. Se generará un registro de negocios morosos, incluyendo detalles de los tributos impagos y la duración de la mora.</em>
 </td>
 </tr>
 <tr>
@@ -815,7 +1034,7 @@ Seguimiento de Pagos de Tributos de Negocios</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema permitirá a los auxiliares de registro ingresar información detallada sobre los pagos de tributos de negocios, incluyendo matrícula, IMI, tren de aseo de negocio, rotulo, aparcamiento, placa, retenciones y cualquier otro tributo asociado. Esta información se utilizará para llevar un registro actualizado de los estados de cuenta de los contribuyentes en relación con los tributos de sus negocios. La entrada de datos será realizada por personal autorizado en el registro del contribuyente y se basará en la información proporcionada en las boletas de cobro elaboradas por colectores y cajeros.</em>
+Permitir a los auxiliares de registro ingresar información detallada sobre los pagos de tributos de negocios, incluyendo matrícula, IMI, tren de aseo de negocio, rotulo, aparcamiento, placa, retenciones y cualquier otro tributo asociado. Esta información se utilizará para llevar un registro actualizado de los estados de cuenta de los contribuyentes en relación con los tributos de sus negocios. La entrada de datos será realizada por personal autorizado en el registro del contribuyente y se basará en la información proporcionada en las boletas de cobro elaboradas por colectores y cajeros.</em>
 </td>
 </tr>
 <tr>
@@ -838,6 +1057,306 @@ El sistema permitirá a los auxiliares de registro ingresar información detallada
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="1">
 Este requerimiento asegurará un seguimiento preciso de los pagos de tributos de negocios y garantizará la actualización de los estados de cuenta de los contribuyentes en relación con sus obligaciones tributarias.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0011</th>
+<th align="left" valign="top" width="100%">
+Registro de Propiedades</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al Auxiliar de Registro ingresar la información básica de las propiedades inmuebles, como finca, tomo, folio, dirección, superficie terreno, superficie construida y código catastral, para que esta información sea registrada y utilizada exclusivamente para la gestión del tributo IBI en el registro del contribuyente.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento permitirá que el registro del contribuyente tenga acceso a la información básica de las propiedades inmuebles registradas en el sistema SISCAT.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0012" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0012</th>
+<th align="left" valign="top" width="100%">
+Cálculo de Monto del IBI</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al Auxiliar de Registro ingresar los datos de la propiedad necesarios para calcular el monto del tributo IBI, teniendo en cuenta los valores registrados en la hoja SISCAT. Además, el sistema debe calcular automáticamente los descuentos y multas aplicables según las políticas tributarias.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento garantizará que los contribuyentes paguen el tributo IBI de acuerdo con las políticas tributarias vigentes, evitando errores de cálculo manual.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0013" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0013</th>
+<th align="left" valign="top" width="100%">
+Generación de Orden de Pago IBI</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al Auxiliar de Registro generar automáticamente una orden de pago del tributo IBI con todos los detalles necesarios, incluyendo la información de la propiedad y el monto calculado. Esta orden de pago servirá como base para el proceso de recaudación de pagos.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento simplificará el proceso de emisión de órdenes de pago, eliminando la necesidad de crearlas manualmente.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0014" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0014</th>
+<th align="left" valign="top" width="100%">
+Registro de Pagos de IBI</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al Auxiliar de Registro ingresar los pagos del tributo IBI realizados por los contribuyentes a traves de la boleta de cobro. Debe registrar la fecha del pago, el monto abonado y el número de boleta correspondiente, y actualizar automáticamente el estado de cuenta del contribuyente.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento asegurará que se lleve un registro preciso de los pagos realizados por los contribuyentes en el registro del contribuyente.</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0015</th>
+<th align="left" valign="top" width="100%">
+Generación de Reportes de IBI</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al Auxiliar de Registro generar informes y reportes relacionados con el tributo IBI. Esto incluye informes sobre estados de cuenta de contribuyentes, totales recaudados, descuentos aplicados, multas acumuladas y otros datos relevantes para la gestión de este tributo.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento brindará a la municipalidad la capacidad de obtener información clave sobre el tributo IBI y facilitará la toma de decisiones basadas en datos.</td>
 </tr>
 </table>
 <p />
@@ -875,7 +1394,7 @@ Interfaz de Usuario Intuitiva</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema debe contar con una interfaz de usuario intuitiva y fácil de usar, con una navegación clara y una presentación de información que permita a los usuarios interactuar de manera eficiente con la aplicación.</em>
+contar con una interfaz de usuario intuitiva y fácil de usar, con una navegación clara y una presentación de información que permita a los usuarios interactuar de manera eficiente con la aplicación.</em>
 </td>
 </tr>
 <tr>
@@ -935,7 +1454,7 @@ Cumplimiento Normativo</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema debe cumplir con las regulaciones y normativas locales y nacionales relacionadas con la gestión tributaria y la privacidad de datos, garantizando que todas las operaciones sean conformes a la ley.</em>
+cumplir con las regulaciones y normativas locales y nacionales relacionadas con la gestión tributaria y la privacidad de datos, garantizando que todas las operaciones sean conformes a la ley.</em>
 </td>
 </tr>
 <tr>
@@ -995,7 +1514,7 @@ Escalabilidad</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema debe poder crecer para acomodar un aumento en el número de contribuyentes, empleados y transacciones sin disminución significativa del rendimiento.</em>
+poder crecer para acomodar un aumento en el número de contribuyentes, empleados y transacciones sin disminución significativa del rendimiento.</em>
 </td>
 </tr>
 <tr>
@@ -1055,7 +1574,7 @@ Seguridad de Datos</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema debe garantizar la seguridad de los datos almacenados y transmitidos, utilizando medidas de cifrado y autenticación robustas para proteger la información confidencial de los contribuyentes y empleados.</em>
+garantizar la seguridad de los datos almacenados y transmitidos, utilizando medidas de cifrado y autenticación robustas para proteger la información confidencial de los contribuyentes y empleados.</em>
 </td>
 </tr>
 <tr>
@@ -1115,7 +1634,7 @@ Disponibilidad y Continuidad del Sistema</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-El sistema debe garantizar una disponibilidad 24/7 y continuidad del servicio, minimizando las interrupciones planificadas y no planificadas mediante la implementación de planes de recuperación de desastres.</em>
+garantizar una disponibilidad 24/7 y continuidad del servicio, minimizando las interrupciones planificadas y no planificadas mediante la implementación de planes de recuperación de desastres.</em>
 </td>
 </tr>
 <tr>
@@ -1138,6 +1657,66 @@ El sistema debe garantizar una disponibilidad 24/7 y continuidad del servicio, m
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="1">
 Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0017" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0017</th>
+<th align="left" valign="top" width="100%">
+Generación de Órdenes de Pago</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/10/2023 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir al auxiliar de registro del contribuyente generar órdenes de pago cuando un contribuyente acude a ventanilla para pagar sus impuestos. Estas órdenes de pago deben incluir detalles sobre el monto a pagar y los tributos correspondientes.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Este requerimiento agiliza el proceso de pago de impuestos para los contribuyentes.</td>
 </tr>
 </table>
 <p />
