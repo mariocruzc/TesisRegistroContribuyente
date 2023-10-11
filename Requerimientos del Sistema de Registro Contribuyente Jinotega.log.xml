@@ -2,124 +2,7 @@
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>ACT-0005</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El Auxiliar de Catastro es el encargado del área de Catastro en la municipalidad. Su función principal es registrar y mantener actualizada la información sobre propiedades inmuebles en el sistema SISCAT. Además, proporciona asesoramiento y documentación relacionada con las propiedades a los contribuyentes.] -> [al encargado de registrar y mantener actualizada la información sobre propiedades inmuebles en el sistema SISCAT. Además, proporciona asesoramiento y documentación relacionada con las propiedades a los contribuyentes.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -129,6 +12,15 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -146,57 +38,12 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -212,7 +59,7 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>10</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -233,6 +80,15 @@
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -245,42 +101,6 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
@@ -290,16 +110,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -308,6 +119,24 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
@@ -317,16 +146,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -344,16 +164,151 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>10</rem:day>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -371,7 +326,70 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -399,6 +417,15 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -419,22 +446,13 @@
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>7</rem:day>
+<rem:day>9</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>9</rem:day>
@@ -452,16 +470,16 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>10</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>9</rem:day>
@@ -479,7 +497,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -488,7 +506,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -515,70 +533,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -614,61 +569,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -695,7 +596,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -704,7 +605,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -713,7 +614,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -732,33 +633,6 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -794,7 +668,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -804,6 +678,60 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -830,7 +758,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>7</rem:day>
@@ -851,16 +779,7 @@
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
+<rem:day>9</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -869,43 +788,7 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
+<rem:day>9</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -920,10 +803,154 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -941,27 +968,144 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0007</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema permitirá a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.] -> [Permitirá a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0003</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema debe permitir al Responsable de la Oficina de Cementerio ingresar y actualizar la información específica de cada lote de cementerio, incluyendo sus dimensiones, ubicación, zona, linderos y código.] -> [Permitir al Responsable de la Oficina de Cementerio ingresar y actualizar la información específica de cada lote de cementerio, incluyendo sus dimensiones, ubicación, zona, linderos y código.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -982,17 +1126,53 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0007</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [Permitirá a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.] -> [Permitir a los fiscales tributarios gestionar cambios en los tributos asociados a un negocio registrado. Esto incluirá la capacidad de modificar el tipo de tributo (cuota fija o régimen contable) y cualquier otra información relacionada con los tributos, independientemente de si se trata de apertura, modificación o cierre del negocio.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1011,6 +1191,393 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [El colector es un empleado del área de colectores de la Municipalidad encargado de realizar visitas a los contribuyentes en zonas o barrios asignados para recaudar los tributos.] -> [a un empleado del área de colectores de la Municipalidad encargado de realizar visitas a los contribuyentes en zonas o barrios asignados para recaudar los tributos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1019,7 +1586,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>ACT-0005</rem:owner><rem:date>
+<rem:owner>ACT-0006</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1028,120 +1595,12 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0005</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema permitirá a los fiscales tributarios registrar solicitudes de negocios, incluyendo aperturas, modificaciones y cierres. Esto implicará la captura de datos personales del solicitante, detalles del negocio, elección del tipo de acta (apertura, modificación o cierre), determinación de tributos a pagar y cualquier observación.] -> [Permitir a los fiscales tributarios registrar solicitudes de negocios, incluyendo aperturas, modificaciones y cierres. Esto implicará la captura de datos personales del solicitante, detalles del negocio, elección del tipo de acta (apertura, modificación o cierre), determinación de tributos a pagar y cualquier observación.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0008</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema permitirá al director tributario generar informes detallados sobre los negocios registrados en base a diversos criterios, incluyendo totales de apertura, cierres de negocios, clasificación por zonas o barrios, actividades económicas y género de los propietarios. Estos informes estarán disponibles para su visualización y exportación en formatos adecuados.] -> [Permitir al director tributario generar informes detallados sobre los negocios registrados en base a diversos criterios, incluyendo totales de apertura, cierres de negocios, clasificación por zonas o barrios, actividades económicas y género de los propietarios. Estos informes estarán disponibles para su visualización y exportación en formatos adecuados.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema debe permitir al Responsable de la Oficina de Cementerio registrar los pagos realizados por los solicitantes de lotes de cementerio. Debe incluir la información de los pagos, como el monto, la fecha y el número de recibo.] -> [Permitir al Responsable de la Oficina de Cementerio registrar los pagos realizados por los solicitantes de lotes de cementerio. Debe incluir la información de los pagos, como el monto, la fecha y el número de recibo.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema generará automáticamente actas de negocios en formato impreso. Las actas incluirán toda la información ingresada por los fiscales tributarios y permitirán la firma y aprobación por parte del director tributario, fiscal tributario y contribuyente. Esto incluye actas de apertura, modificación y cierre de negocios.] -> [Generar automáticamente actas de negocios en formato impreso. Las actas incluirán toda la información ingresada por los fiscales tributarios y permitirán la firma y aprobación por parte del director tributario, fiscal tributario y contribuyente. Esto incluye actas de apertura, modificación y cierre de negocios.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema debe permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido, generar un formulario con estos datos y emitir una orden de pago por el valor del lote.] -> [Permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido, generar un formulario con estos datos y emitir una orden de pago por el valor del lote.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -1153,17 +1612,8 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema deberá proporcionar una interfaz que permita al Responsable de Cementerio consultar el estado de cuenta de los contribuyentes con respecto a la tasa de mantenimiento del cementerio. Esta interfaz deberá mostrar los detalles de los pagos, las fechas de vencimiento, los montos pagados y cualquier información relevante relacionada con la tasa de mantenimiento. ] -> [Proporcionar una interfaz que permita al Responsable de Cementerio consultar el estado de cuenta de los contribuyentes con respecto a la tasa de mantenimiento del cementerio. Esta interfaz deberá mostrar los detalles de los pagos, las fechas de vencimiento, los montos pagados y cualquier información relevante relacionada con la tasa de mantenimiento. ]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1172,295 +1622,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [generar un formulario con las especificaciones del lote de cementerio asignado. Este formulario se creará con los datos recopilados en el proceso de registro y estará listo para ser archivado en el registro del contribuyente.] -> [generar un formulario impreso con las especificaciones del lote de cementerio asignado. Este formulario se creará con los datos recopilados en el proceso de registro y estará listo para ser archivado en el registro del contribuyente en su respectivo expediente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1477,22 +1639,121 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [permitir al auxiliar de registro del contribuyente generar estados de cuenta para los contribuyentes que acuden a ventanilla. Estos estados de cuenta deben incluir información detallada de los tributos asignados al contribuyente.] -> [permitir a los fiscales tributarios y colectores consultar el estado de cuenta del contribuyente antes de realizar acciones relacionadas con la fiscalización y cobranza de tributos. La consulta se debe realizar de manera eficiente.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1504,17 +1765,8 @@
 <rem:description><![CDATA[Eliminado el objeto [FRQ-0018]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1522,17 +1774,17 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [Permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido, generar un formulario con estos datos y emitir una orden de pago por el valor del lote.] -> [permitir al Responsable de la Oficina de Cementerio registrar la asignación de lotes de cementerio a solicitantes. Debe recopilar la información del lote, del solicitante y del fallecido.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1577,57 +1829,12 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Comments] actualizada [Este requerimiento es esencial para automatizar el proceso de asignación de lotes de cementerio y garantizar la correcta generación de información que luego será registrada en el sistema.] -> [Este requerimiento se enfoca en el proceso de registro y recopilación de datos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema deberá generar un formulario con las especificaciones del lote de cementerio asignado. Este formulario se creará con los datos recopilados en el proceso de registro y estará listo para ser archivado en el registro del contribuyente.] -> [generar un formulario con las especificaciones del lote de cementerio asignado. Este formulario se creará con los datos recopilados en el proceso de registro y estará listo para ser archivado en el registro del contribuyente.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -1639,24 +1846,6 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [permitir al Auxiliar de Registro ingresar los pagos del tributo IBI realizados por los contribuyentes. Debe registrar la fecha del pago, el monto abonado y el número de boleta correspondiente, y actualizar automáticamente el estado de cuenta del contribuyente.] -> [permitir al Auxiliar de Registro ingresar los pagos del tributo IBI realizados por los contribuyentes a traves de la boleta de cobro. Debe registrar la fecha del pago, el monto abonado y el número de boleta correspondiente, y actualizar automáticamente el estado de cuenta del contribuyente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Generación de Orden de Pago] -> [Generación de Orden de Pago IBI]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
@@ -1664,19 +1853,100 @@
 <rem:day>10</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1702,15 +1972,6 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Comments] actualizada [Este requerimiento garantiza que los contribuyentes reciban información clara sobre sus tributos] -> [Este requerimiento es crucial para evitar errores en la fiscalización y cobranza de tributos.]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
@@ -1720,13 +1981,22 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -1738,17 +2008,8 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Emisión de Estados de Cuenta por el Auxiliar de Registro] -> [Consulta de Estado de Cuenta]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1756,40 +2017,13 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Este requerimiento asegurará que se lleve un registro preciso de los pagos realizados por los contribuyentes en el registro del contribuyente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0017</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -1802,34 +2036,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>FRQ-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Emisión de Estados de Cuenta para Contribuyentes por el Auxiliar de Registro] -> [Emisión de Estados de Cuenta por el Auxiliar de Registro]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:owner>ACT-0008</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1838,6 +2045,69 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0003] Escalabilidad con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
@@ -1857,24 +2127,6 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>
@@ -1901,70 +2153,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>10</rem:day>

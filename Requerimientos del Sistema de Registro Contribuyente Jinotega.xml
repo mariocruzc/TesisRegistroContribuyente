@@ -121,6 +121,57 @@ Auxiliar de Catastro</rem:name>
 Este actor interactúa con el sistema SISCAT y proporciona información relevante para la gestión del tributo IBI en el registro del contribuyente.</rem:comments>
 <rem:actorRole>al encargado de registrar y mantener actualizada la información sobre propiedades inmuebles en el sistema SISCAT. Además, proporciona asesoramiento y documentación relacionada con las propiedades a los contribuyentes.</rem:actorRole>
 </rem:actor>
+<rem:actor
+ oid = "ACT-0006">
+<rem:name>
+Colector</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+El colector juega un papel fundamental en la recaudación de tributos y la emisión de boletas de cobro.</rem:comments>
+<rem:actorRole>a un empleado del área de colectores de la Municipalidad encargado de realizar visitas a los contribuyentes en zonas o barrios asignados para recaudar los tributos.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0007">
+<rem:name>
+Auxiliar de Registro</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+El Auxiliar de Registro juega un papel fundamental en la operación del sistema, ya que se encarga de registrar y gestionar la información de las boletas de cobro de diversos tributos, lo que asegura que los expedientes de los contribuyentes estén actualizados y libres de errores. Además, facilita la consulta de los estados de cuenta y permite la generación de informes precisos.</rem:comments>
+<rem:actorRole>a un miembro del personal encargado de gestionar y mantener la información relacionada con los contribuyentes en el área del Registro del Contribuyente de la municipalidad. Este actor tiene un rol crucial en la administración de los expedientes de los contribuyentes y es responsable de ingresar y actualizar datos en el sistema de registro, incluyendo la información de las boletas de cobro proporcionadas por los colectores y caja.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0008">
+<rem:name>
+Responsable del Registro del Contribuyente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+El Responsable del Registro del Contribuyente desempeña un papel fundamental en la gestión de datos de contribuyentes y la interacción con otras áreas para proporcionar información relevante y precisa.</rem:comments>
+<rem:actorRole>es el encargado de supervisar y gestionar el registro de contribuyentes en el sistema. Esta persona tiene la responsabilidad de proporcionar información y estados de cuenta cuando se le solicite. </rem:actorRole>
+</rem:actor>
 <rem:functionalRequirement
  oid = "FRQ-0003">
 <rem:name>
@@ -388,7 +439,7 @@ Permitir al fiscal tributario hacer seguimiento de los negocios que se encuentra
 <rem:functionalRequirement
  oid = "FRQ-0010">
 <rem:name>
-Seguimiento de Pagos de Tributos de Negocios</rem:name>
+Registro de Pagos de Tributos de Negocios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -517,6 +568,124 @@ Este requerimiento brindará a la municipalidad la capacidad de obtener informaci
 <rem:description>
 permitir al Auxiliar de Registro generar informes y reportes relacionados con el tributo IBI. Esto incluye informes sobre estados de cuenta de contribuyentes, totales recaudados, descuentos aplicados, multas acumuladas y otros datos relevantes para la gestión de este tributo.</rem:description>
 </rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0017">
+<rem:name>
+Generación de Órdenes de Pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento agiliza el proceso de pago de impuestos para los contribuyentes.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir al auxiliar de registro del contribuyente generar órdenes de pago cuando un contribuyente acude a ventanilla para pagar sus impuestos. Estas órdenes de pago deben incluir detalles sobre el monto a pagar y los tributos correspondientes.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0020">
+<rem:name>
+Registro del pago de Tasa de Cementerio </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento garantiza una gestión adecuada de las boletas de cobro de la tasa de cementerio anual, asegurando que se registren correctamente en el sistema antes de su archivo en el expediente del contribuyente.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir al auxiliar de registro ingresar la información de las boletas de cobro correspondientes a la tasa de cementerio anual proporcionadas por los colectores y caja. Estas boletas deben ser registradas en el sistema antes de ser archivadas en el expediente del contribuyente en el registro del contribuyente.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0021">
+<rem:name>
+Registro del Pago de Tren de Aseo domiciliar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento asegura la correcta gestión de las boletas de cobro del pago de tren de aseo mensual,</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+permitir al auxiliar de registro ingresar la información de las boletas de cobro correspondientes al pago de tren de aseo domiciliar mensual proporcionadas por los colectores y caja. </rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0022">
+<rem:name>
+Generación de Estados de Cuenta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento es crucial para una gestión eficiente de las deudas de los contribuyentes. Los estados de cuenta son fundamentales para que el Registro del Contribuyente brinde un servicio de calidad y asegure que se cumplan los acuerdos de pago.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+proporcionar una funcionalidad que permita al Responsable del Registro del Contribuyente generar estados de cuenta precisos para los negocios de los contribuyentes, en respuesta a solicitudes realizadas por el Fiscal Tributario o el Contribuyente. Estos estados de cuenta deben mostrar de manera clara los tributos pendientes a pagar, junto con detalles y fechas relevantes.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0023">
+<rem:name>
+Gestión y Seguimiento de Convenios de Pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Este requerimiento es esencial para mantener un control eficiente de los acuerdos de pago, contribuyendo a la reducción de la morosidad en el pago de tributos y mejorando la gestión de ingresos de la municipalidad. El sistema debe garantizar un seguimiento preciso y transparente de estos acuerdos.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+proporcionar una funcionalidad que permita al Responsable del Registro del Contribuyente gestionar, hacer seguimiento y registrar los convenios de pago o acuerdos de pago acordados entre la municipalidad y los contribuyentes. Además, debe registrar los pagos efectuados y calcular de manera precisa los saldos pendientes en los convenios de pago.</rem:description>
+</rem:functionalRequirement>
 <rem:nonFunctionalRequirement
  oid = "NFR-0001">
 <rem:name>
@@ -531,7 +700,7 @@ Interfaz de Usuario Intuitiva</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Ninguno</rem:comments>
+La usabilidad es fundamental para garantizar que los usuarios puedan aprovechar al máximo el sistema sin dificultades.</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
 <rem:status value = "STV-0002"/>
@@ -562,28 +731,6 @@ El cumplimiento normativo es esencial para evitar problemas legales y sanciones.
 cumplir con las regulaciones y normativas locales y nacionales relacionadas con la gestión tributaria y la privacidad de datos, garantizando que todas las operaciones sean conformes a la ley.</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement
- oid = "NFR-0003">
-<rem:name>
-Escalabilidad</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-poder crecer para acomodar un aumento en el número de contribuyentes, empleados y transacciones sin disminución significativa del rendimiento.</rem:description>
-</rem:nonFunctionalRequirement>
-<rem:nonFunctionalRequirement
  oid = "NFR-0004">
 <rem:name>
 Seguridad de Datos</rem:name>
@@ -597,13 +744,13 @@ Seguridad de Datos</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Ninguno</rem:comments>
+La seguridad de los datos y el control de acceso son críticos para proteger la información sensible.</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-garantizar la seguridad de los datos almacenados y transmitidos, utilizando medidas de cifrado y autenticación robustas para proteger la información confidencial de los contribuyentes y empleados.</rem:description>
+garantizar la seguridad de los datos de los contribuyentes y los tributos, protegiéndolos contra accesos no autorizados y garantizando la confidencialidad. Debe permitir el control de acceso basado en roles para garantizar que solo los usuarios autorizados tengan acceso a funciones específicas.</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement
  oid = "NFR-0005">
@@ -619,18 +766,18 @@ Disponibilidad y Continuidad del Sistema</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Ninguno</rem:comments>
+La disponibilidad es crucial para garantizar que el sistema esté disponible cuando los usuarios lo necesitan.</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-garantizar una disponibilidad 24/7 y continuidad del servicio, minimizando las interrupciones planificadas y no planificadas mediante la implementación de planes de recuperación de desastres.</rem:description>
+estar disponible durante las horas de operación normales y ser capaz de recuperarse rápidamente después de una interrupción inesperada.</rem:description>
 </rem:nonFunctionalRequirement>
-<rem:functionalRequirement
- oid = "FRQ-0017">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0006">
 <rem:name>
-Generación de Órdenes de Pago</rem:name>
+Rendimiento</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -641,14 +788,36 @@ Generación de Órdenes de Pago</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Este requerimiento agiliza el proceso de pago de impuestos para los contribuyentes.</rem:comments>
+Un rendimiento óptimo y la capacidad de escalabilidad son esenciales para garantizar una experiencia de usuario satisfactoria.</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-permitir al auxiliar de registro del contribuyente generar órdenes de pago cuando un contribuyente acude a ventanilla para pagar sus impuestos. Estas órdenes de pago deben incluir detalles sobre el monto a pagar y los tributos correspondientes.</rem:description>
-</rem:functionalRequirement>
+responder a las solicitudes de los usuarios en un tiempo razonable, incluso durante las horas pico de uso. Debe ser escalable para manejar un aumento en la carga de trabajo y el número de usuarios sin pérdida significativa de rendimiento.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0007">
+<rem:name>
+Documentación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+La documentación es esencial para facilitar el uso y el mantenimiento del sistema.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+proporcionar documentación exhaustiva que incluya manuales de usuario, documentación técnica y cualquier otro recurso necesario para el uso y la administración del sistema.</rem:description>
+</rem:nonFunctionalRequirement>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
 <rem:name>Documento de Análisis del Sistema</rem:name>
@@ -696,6 +865,27 @@ Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0002">
 <rem:name>
@@ -760,48 +950,6 @@ Alphanumeric strings</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
  oid = "PVT-0001">
 <rem:name>
 Real</rem:name>
@@ -822,84 +970,75 @@ Real numbers</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
@@ -908,22 +1047,70 @@ Real numbers</rem:description>
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
 <rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -944,56 +1131,38 @@ Real numbers</rem:description>
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
 <rem:name>Organización incorrecta</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
@@ -1001,38 +1170,38 @@ Real numbers</rem:description>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
@@ -1040,20 +1209,20 @@ Real numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
@@ -1061,11 +1230,11 @@ Real numbers</rem:description>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
